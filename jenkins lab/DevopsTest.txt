@@ -1,0 +1,45 @@
+Qus-Demonstrate branching and merging and share your repository link.
+
+Sol-
+Certainly, I can explain branching and merging in Git. Here's an example scenario to demonstrate how branching and merging works in Git:
+
+Suppose you are working on a project in Git and you need to add a new feature to the code. You don't want to make changes directly to the main codebase, so you create a new branch to work on the feature.
+
+Create a new branch: You can create a new branch by running the following command in Git:
+
+git branch feature-branch
+
+This creates a new branch called "feature-branch" that is identical to the current branch you're on.
+
+Switch to the new branch: To switch to the new branch, run the following command:
+
+git checkout feature-branch
+
+This will switch you to the new branch, and any changes you make will only be made to this branch, not the main codebase.
+
+Make changes and commit: You can now make changes to the codebase in the new branch. Once you've made the changes, you can commit them to the branch using the following command:
+
+git commit -m "Added new feature"
+
+This will save your changes to the branch.
+
+Switch back to the main branch: Once you've made your changes in the feature branch, 
+you can switch back to the main branch using the following command:
+
+git checkout main
+
+This will take you back to the main branch, which is where you started.
+
+Merge the changes: To merge the changes you made in the feature branch back into the main branch, run the following command:
+
+git merge feature-branch
+
+This will merge the changes you made in the feature branch into the main branch. If there are any conflicts, Git will prompt you to resolve them.
+
+Push changes: Finally, push the changes to the remote repository by running the following command:
+
+git push
+
+This will push the changes to the main branch on the remote repository, making them available to other developers.
+
+That's a basic demonstration of branching and merging in Git.
